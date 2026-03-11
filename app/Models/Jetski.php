@@ -14,6 +14,7 @@ class Jetski extends Model
         'slug',
         'description',
         'price_per_hour',
+        'duration',
         'image',
         'whatsapp_phone',
         'features',
