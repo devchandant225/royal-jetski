@@ -28,8 +28,8 @@
                     <i class="fas fa-map-marker-alt"></i>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-2">Visit Us</h3>
-                <p class="text-gray-500 mb-4 leading-relaxed">Jumeirah Beach Residence<br>Dubai Marina, UAE</p>
-                <a href="https://maps.google.com/?q=jumeirah+beach+dubai" class="text-royal-blue font-semibold hover:text-blue-800 flex items-center">
+                <p class="text-gray-500 mb-4 leading-relaxed">Kite Beach - Umm Suqeim First<br>Jumeirah 3, Dubai - UAE</p>
+                <a href="https://maps.google.com/?q=Kite+Beach+Dubai" class="text-royal-blue font-semibold hover:text-blue-800 flex items-center">
                     Get Directions <i class="fas fa-arrow-right ml-2 text-sm"></i>
                 </a>
             </div>
@@ -40,9 +40,9 @@
                     <i class="fas fa-phone-alt"></i>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-2">Call Us</h3>
-                <p class="text-gray-500 mb-4 leading-relaxed">Mon-Sun: 8am - 7pm<br>Support: 24/7</p>
-                <a href="tel:+971500000000" class="text-royal-blue font-semibold hover:text-blue-800 flex items-center">
-                    +971 50 000 0000 <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                <p class="text-gray-500 mb-4 leading-relaxed">Mon-Sun: 7am - 5:30pm<br>Everyday</p>
+                <a href="tel:+971503102976" class="text-royal-blue font-semibold hover:text-blue-800 flex items-center">
+                    +971 50 310 2976 <i class="fas fa-arrow-right ml-2 text-sm"></i>
                 </a>
             </div>
 
@@ -53,7 +53,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-2">Chat with Us</h3>
                 <p class="text-gray-500 mb-4 leading-relaxed">Instant booking confirmation<br>& quick answers.</p>
-                <a href="https://wa.me/971500000000" class="text-green-600 font-semibold hover:text-green-700 flex items-center">
+                <a href="https://wa.me/+971503102976" class="text-green-600 font-semibold hover:text-green-700 flex items-center">
                     Open WhatsApp <i class="fas fa-arrow-right ml-2 text-sm"></i>
                 </a>
             </div>
@@ -133,7 +133,7 @@
 
     <!-- Map Section (Full Width Bottom) -->
     <section class="h-[500px] w-full relative grayscale hover:grayscale-0 transition duration-700">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.7010336255!2d55.27928331475928!3d25.09656838396748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b7b6b7b6b7b%3A0x7b7b7b7b7b7b7b7b!2sJumeirah%20Beach%20Residence%2C%20Dubai!5e0!3m2!1sen!2sae!4v1610000000000!5m2!1sen!2sae"
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115579.31652509443!2d55.08021074763095!3d25.140638522373813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b88a31947d5%3A0xadedaca003249b5f!2sRoyal%20Jetski%20and%20Water%20Sports!5e0!3m2!1sen!2snp!4v1772515885314!5m2!1sen!2snp"
             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="absolute inset-0 w-full h-full"></iframe>
     </section>
 @endsection

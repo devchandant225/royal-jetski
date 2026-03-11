@@ -7,15 +7,15 @@
                 <p class="text-gray-600 text-lg mb-12 leading-relaxed">
                     Whether you are looking to buy, sell, or rent, our team of experts is ready to assist you. Visit our office or send us a message.
                 </p>
-                
+
                 <div class="space-y-8">
                     <div class="flex items-start space-x-6">
                         <div class="w-12 h-12 border border-gray-200 flex items-center justify-center text-gray-900">
                             <i class="fas fa-map-marker-alt text-xl"></i>
                         </div>
                         <div>
-                            <h4 class="font-bold text-gray-900 text-lg uppercase tracking-wide">Headquarters</h4>
-                            <p class="text-gray-600 mt-2">Level 42, Boulevard Plaza Tower 1,<br>Downtown Dubai, UAE</p>
+                            <h4 class="font-bold text-gray-900 text-lg uppercase tracking-wide">Location</h4>
+                            <p class="text-gray-600 mt-2">Kite Beach - Umm Suqeim First<br>Jumeirah 3, Dubai - UAE</p>
                         </div>
                     </div>
                     <div class="flex items-start space-x-6">
@@ -24,8 +24,8 @@
                         </div>
                         <div>
                             <h4 class="font-bold text-gray-900 text-lg uppercase tracking-wide">Phone</h4>
-                            <p class="text-gray-600 mt-2">+971 4 123 4567</p>
-                            <p class="text-gray-500 text-sm">Mon-Fri 9am-6pm</p>
+                            <p class="text-gray-600 mt-2">+971 50 310 2976</p>
+                            <p class="text-gray-500 text-sm">7:00 AM - 5:30 PM (Everyday)</p>
                         </div>
                     </div>
                     <div class="flex items-start space-x-6">
@@ -34,7 +34,20 @@
                         </div>
                         <div>
                             <h4 class="font-bold text-gray-900 text-lg uppercase tracking-wide">Email</h4>
-                            <p class="text-gray-600 mt-2">info@geminiestate.com</p>
+                            <p class="text-gray-600 mt-2">contact@royaljetski.com</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-6">
+                        <div class="w-12 h-12 border border-gray-200 flex items-center justify-center text-gray-900">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-lg uppercase tracking-wide">WhatsApp</h4>
+                            <p class="text-gray-600 mt-2">
+                                <a href="https://wa.me/+971503102976" class="text-green-600 hover:text-green-700 font-semibold">
+                                    Chat with us
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>

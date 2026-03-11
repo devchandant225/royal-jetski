@@ -58,7 +58,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
                 <div>
-                    <h3 class="text-2xl font-bold mb-4 italic uppercase">Dubai Jetski</h3>
+                    <h3 class="text-2xl font-bold mb-4 italic uppercase">Royal Jetski</h3>
                     <p class="text-gray-400 leading-relaxed">Experience the thrill of the waves with Dubai's premier jetski rental service. We offer top-of-the-line equipment and expert guidance for an unforgettable adventure.</p>
                 </div>
                 <div>
@@ -71,19 +71,34 @@
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-xl font-semibold mb-4">Connect With Us</h4>
-                    <div class="flex space-x-4 mb-6">
-                        <a href="#" class="text-2xl hover:text-blue-400"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="text-2xl hover:text-blue-400"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="text-2xl hover:text-blue-400"><i class="fab fa-tiktok"></i></a>
+                    <h4 class="text-xl font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-blue-400"></i>
+                            <span>Kite Beach - Umm Suqeim First - Jumeirah 3 - Dubai - UAE</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3 text-blue-400"></i>
+                            <a href="tel:+971503102976" class="hover:text-white transition">+971 50 310 2976</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-blue-400"></i>
+                            <a href="mailto:contact@royaljetski.com" class="hover:text-white transition">contact@royaljetski.com</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-clock mr-3 text-blue-400"></i>
+                            <span>7:00 AM - 5:30 PM (Everyday)</span>
+                        </li>
+                    </ul>
+                    <div class="mt-4">
+                        <a href="https://wa.me/+971503102976" class="inline-block bg-green-500 hover:bg-green-600 px-6 py-2 rounded-full font-bold transition">
+                            <i class="fab fa-whatsapp mr-2"></i> Chat on WhatsApp
+                        </a>
                     </div>
-                    <a href="tel:+971500000000" class="block text-lg font-bold hover:text-blue-300 transition">
-                        <i class="fas fa-phone-alt mr-2"></i> +971 50 000 0000
-                    </a>
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500">
-                <p>&copy; {{ date('Y') }} Dubai Jetski. All rights reserved.</p>
+                <p>&copy; {{ date('Y') }} Royal Jetski. All rights reserved.</p>
             </div>
         </div>
     </footer>
