@@ -41,17 +41,39 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-r from-royal-blue to-blue-700 text-white">
-        <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-4xl font-bold mb-6">Ready for Your Water Adventure?</h2>
-            <p class="text-xl mb-10 text-blue-200">Join us for an unforgettable experience on the beautiful waters of Dubai.</p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="{{ route('fleet') }}" class="bg-white text-royal-blue px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition inline-flex items-center justify-center">
-                    <i class="fas fa-water mr-2"></i> View Our Fleet
-                </a>
-                <a href="https://wa.me/+971503102976" class="bg-green-500 text-white px-8 py-4 rounded-full font-bold hover:bg-green-600 transition inline-flex items-center justify-center">
-                    <i class="fab fa-whatsapp mr-2"></i> WhatsApp Us
-                </a>
+    <section class="relative py-24 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1920&q=80" 
+                 alt="Royal Jetski CTA" 
+                 class="w-full h-full object-cover brightness-[0.4]">
+            <div class="absolute inset-0 bg-gradient-to-b from-royal-blue/60 to-black/80"></div>
+        </div>
+
+        <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-[3rem] p-8 md:p-16 text-center shadow-2xl">
+                <span class="text-blue-400 font-bold tracking-widest uppercase text-sm mb-4 block">Ready for the Thrill?</span>
+                <h2 class="text-4xl md:text-6xl font-bold text-white mb-8 leading-tight uppercase italic">
+                    Book Your <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Ultimate Adventure</span> Today
+                </h2>
+                <p class="text-xl md:text-2xl mb-12 text-blue-100 max-w-2xl mx-auto font-medium">
+                    Experience Dubai's iconic landmarks from the water. Professional instructors, premium equipment, and unforgettable memories await.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
+                    <a href="{{ route('fleet') }}" class="group bg-white text-royal-blue px-10 py-5 rounded-2xl font-black uppercase tracking-tighter hover:bg-blue-50 transition-all duration-300 shadow-xl shadow-white/10 flex items-center transform hover:-translate-y-1">
+                        Explore Fleet
+                        <i class="fas fa-arrow-right ml-3 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                    <a href="https://wa.me/+971503102976" class="group bg-green-500 text-white px-10 py-5 rounded-2xl font-black uppercase tracking-tighter hover:bg-green-600 transition-all duration-300 shadow-xl shadow-green-500/20 flex items-center transform hover:-translate-y-1">
+                        <i class="fab fa-whatsapp mr-3 text-2xl"></i>
+                        Book via WhatsApp
+                    </a>
+                </div>
+                
+                <div class="mt-12 flex flex-wrap justify-center gap-8 text-blue-200/80 text-sm font-bold uppercase tracking-widest">
+                    <div class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> No Hidden Fees</div>
+                    <div class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Free Photos</div>
+                    <div class="flex items-center"><i class="fas fa-check-circle text-blue-400 mr-2"></i> Safety First</div>
+                </div>
             </div>
         </div>
     </section>
