@@ -30,7 +30,7 @@
         <aside :class="sidebarOpen ? 'translate-x-0' : '-translate-x-full'"
                class="fixed md:static inset-y-0 left-0 z-50 w-64 bg-slate-900 text-white flex-shrink-0 flex flex-col transition-transform duration-300 ease-in-out md:translate-x-0">
             <div class="p-6 flex items-center justify-between">
-                <h1 class="text-2xl font-bold text-blue-400">Gemini Estate</h1>
+                <h1 class="text-2xl font-bold text-blue-400 italic uppercase">Royal Jetski</h1>
                 <button @click="sidebarOpen = false" class="md:hidden text-gray-400 hover:text-white">
                     <i class="fas fa-times text-xl"></i>
                 </button>
